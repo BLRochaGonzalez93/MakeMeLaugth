@@ -8,23 +8,24 @@ using UnityEngine.UI;
 
 public class AutoLoad : MonoBehaviour
 {
-    public GameObject loadingScreen;
     public TextMeshProUGUI loadingText;
     public int sceneIndex;
     public float timer;
+    public float maxTime;
 
     // Start is called before the first frame update
     void Start()
     {
         timer = 0;
         loadingText.text = "Cargando...";
+        maxTime = 5;
     }
 
     private void Update()
     {
         timer += Time.deltaTime;
         ChangeLoadingText();
-        if (timer >= 8)
+        if (timer >= maxTime)
         {
             SceneManager.LoadScene(sceneIndex);
         }
