@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KillingScene.unity
     guid: 45eefbbd765f2064383ac5d46c449d00
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 608671d49521b154b8b7d15af07099f3
   m_configObjects: {}
