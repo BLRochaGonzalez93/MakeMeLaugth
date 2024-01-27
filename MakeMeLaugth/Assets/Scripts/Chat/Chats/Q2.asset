@@ -17,5 +17,4 @@ MonoBehaviour:
   response:
   - R0
   - R1
-  - R1
-  nextId: 03000000ffffffffffffffff
+  nextId: 0400000005000000
