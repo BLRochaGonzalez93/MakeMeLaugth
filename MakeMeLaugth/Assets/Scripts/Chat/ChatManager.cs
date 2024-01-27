@@ -9,7 +9,7 @@ public class ChatManager : MonoBehaviour
 {
     public CharacterChatBehaviour girl;
 
-    public TextMeshProUGUI question;
+    public List<TextMeshProUGUI> question;
     public List<TextMeshProUGUI> responses;
     private ChatBehaviour chat;
 
@@ -18,7 +18,7 @@ public class ChatManager : MonoBehaviour
     {
         //girl.characterId = PlayerPrefs.GetInt("id");
         chat = girl.conversations[0];
-        question.text = chat.question;
+        //question.text = chat.question;
 
         Debug.Log(responses.Count);
         for (int i = 0; i < responses.Count; i++)
@@ -42,7 +42,7 @@ public class ChatManager : MonoBehaviour
         {
             ChatBehaviour chat2 = girl.conversations[chat.nextId[0]];
             chat = chat2;
-            question.text = chat2.question;
+            //question.text = chat2.question;
 
             for (int i = 0; i < responses.Count; i++)
             {
@@ -66,7 +66,7 @@ public class ChatManager : MonoBehaviour
         {
             ChatBehaviour chat2 = girl.conversations[chat.nextId[1]];
             chat = chat2;
-            question.text = chat2.question;
+            //question.text = chat2.question;
 
             for (int i = 0; i < responses.Count; i++)
             {
@@ -90,7 +90,7 @@ public class ChatManager : MonoBehaviour
         {
             ChatBehaviour chat2 = girl.conversations[chat.nextId[2]];
             chat = chat2;
-            question.text = chat2.question;
+            //question.text = chat2.question;
 
             for (int i = 0; i < responses.Count; i++)
             {
@@ -114,7 +114,7 @@ public class ChatManager : MonoBehaviour
         {
             ChatBehaviour chat2 = girl.conversations[chat.nextId[3]];
             chat = chat2;
-            question.text = chat2.question;
+            //question.text = chat2.question;
 
             for (int i = 0; i < responses.Count; i++)
             {
