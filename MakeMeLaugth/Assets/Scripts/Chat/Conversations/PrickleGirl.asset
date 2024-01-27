@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8aea6a31e953b2c448999f93a2b3e134, type: 3}
-  m_Name: OtakuGirl
+  m_Name: PrickleGirl
   m_EditorClassIdentifier: 
   characterId: 1
   conversations:

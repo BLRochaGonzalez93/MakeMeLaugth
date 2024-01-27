@@ -7,7 +7,7 @@ public class ChatBehaviour : ScriptableObject
 {
     public int id;
 
-    public string question; 
+    public List<string> questionInteraction; 
     public List<string> response;
     public List<int> nextId;
 }
