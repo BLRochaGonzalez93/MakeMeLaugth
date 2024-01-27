@@ -42,8 +42,10 @@ public class BackgroundMovement : MonoBehaviour
     private void ChangeVelocity()
     {
         speedBG += incrementSpeedBG * Time.deltaTime;
-        Debug.Log(speedBG);
+        
         rb.velocity = new Vector2(-speedBG, 0f);
 
     }
+
+    //TODO crear los hijos de manera dinamica
 }

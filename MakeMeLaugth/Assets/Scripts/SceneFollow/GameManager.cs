@@ -1,25 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public float timeToLose;
-    
+    public float timeToSpeed;
+
+    public TextMeshProUGUI TMPTimer;
 
     void Start()
     {
+       
         
     }
 
-    
-    void Update()
+    private void Update()
     {
-        
+        TMPTimer.text = Mathf.RoundToInt( timeToLose).ToString();
     }
+
     private void FixedUpdate()
     {
         TimeGone();
+       
+
     }
 
     //Time Magnagement
@@ -30,6 +36,10 @@ public class GameManager : MonoBehaviour
             lose();
         }
     }  
+
+   
+
+   
 
     //Win or lose
     public void win()

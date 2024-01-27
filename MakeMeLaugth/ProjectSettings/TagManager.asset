@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Woman
   - Enemy
+  - Lose
   layers:
   - Default
   - TransparentFX
