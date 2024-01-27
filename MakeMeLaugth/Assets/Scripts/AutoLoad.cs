@@ -10,36 +10,48 @@ public class AutoLoad : MonoBehaviour
 {
     public TextMeshProUGUI loadingText;
     public int sceneIndex;
-    public float timer;
-    public float maxTime;
+    private float timer;
+    private float maxTime;
+
+    private State state = State.COMPLETED;
+
+    private enum State
+    {
+        PLAYING, COMPLETED
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         timer = 0;
-        loadingText.text = "Cargando...";
         maxTime = 5;
+        StartCoroutine(TypeText("Cargando..."));
     }
 
     private void Update()
     {
         timer += Time.deltaTime;
-        ChangeLoadingText();
         if (timer >= maxTime)
         {
             SceneManager.LoadScene(sceneIndex);
         }
     }
 
-    private void ChangeLoadingText()
+    private IEnumerator TypeText(string text)
     {
-        if ((int)timer % 2 == 0)
+        loadingText.text = "";
+        state = State.PLAYING;
+        int wordIndex = 0;
+
+        while(state != State.COMPLETED)
         {
-            loadingText.text = "Cargando...";
-        }
-        else if ((int)timer % 2 != 0)
-        {
-            loadingText.text = "";
+            loadingText.text += text[wordIndex];
+            yield return new WaitForSeconds(0.3f);
+            if(++wordIndex == text.Length)
+            {
+                state = State.COMPLETED;
+                break;
+            }
         }
     }
 }
