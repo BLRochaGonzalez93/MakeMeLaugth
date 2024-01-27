@@ -21,4 +21,5 @@ public class MenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
+
 }
