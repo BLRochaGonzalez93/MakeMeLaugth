@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aea6a31e953b2c448999f93a2b3e134, type: 3}
+  m_Name: PrickGirl
+  m_EditorClassIdentifier: 
+  characterId: 1
+  conversations:
+  - {fileID: 11400000, guid: 712bd732aa8d6ee45a8da4ebf84528bd, type: 2}
+  - {fileID: 11400000, guid: 2092aa029f7dd794cb1f8fecbc0bb05c, type: 2}
+  - {fileID: 11400000, guid: e53b09240d443714888510688c47cba1, type: 2}
+  - {fileID: 11400000, guid: e65a8155badf431408986a28b22fa84a, type: 2}
+  - {fileID: 11400000, guid: 5f7491fab125c5d4e909f2757d78b90b, type: 2}
+  - {fileID: 11400000, guid: c3289b9619a79fe40857c7e2c18263c8, type: 2}
