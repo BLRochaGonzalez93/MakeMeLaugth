@@ -15,9 +15,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float distanceFloor = 0.1f;
     [SerializeField] private float speed;
     [SerializeField] private float speedToReduce;
+    [SerializeField] private AudioSource audioJump;
+    [SerializeField] private AudioSource audioReduceSpeed;
+    [SerializeField] private AudioSource audioWin;
+    public AudioSource audioLose;
     public bool haTocado=false;
     public bool isJumping;
-    
+    public bool audioRSpeed;
     void Start()
     {
         player= GetComponent<Rigidbody2D>();
@@ -30,7 +34,7 @@ public class PlayerController : MonoBehaviour
         onFloor = Physics2D.OverlapCircle(transform.position, distanceFloor, floorLayer);
         if (onFloor)
         {
-           // Debug.Log("En suelo");
+           
            Onground = true;
             Jump();
             
@@ -48,9 +52,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump"))
         {
+            audioJump.Play();
             player.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isJumping = true;
-            Debug.Log("Salto");
+            
         }
     }
 
@@ -60,21 +65,32 @@ public class PlayerController : MonoBehaviour
         if ( timeTo<= 50f&& haTocado==false)
         {
             
-           // player.velocity. = Vector2.right * speed;
+           
             player.velocity = new Vector2(speed, player.velocity.y);
             
         }
         if(haTocado==true)
         {
+            //audioReduceSpeed.Play();
+            if(audioRSpeed==false)
+            {
+                PlayReduceSpeedSound();
+            }
             player.velocity = Vector2.left * speedToReduce;
         }
         
+    }
+    public void PlayReduceSpeedSound()
+    {
+        audioReduceSpeed.Play();
+        audioRSpeed = true;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Woman"))
         {
-            Debug.Log("Ha ganado");
+           
+            audioWin.Play();
             SceneManager.LoadScene("KillingScene");
             
         }
@@ -88,7 +104,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Lose"))
         {
             //Lose
-            
+            audioLose.Play();
             Debug.Log("Ha perdido");
         }
 
@@ -98,6 +114,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             haTocado = false;
+            audioRSpeed=false;
         }
     }
 

@@ -33,26 +33,16 @@ public class GameManager : MonoBehaviour
 
         timeToLose -= 1f * Time.fixedDeltaTime;
         if (timeToLose <= 0f) {
-            lose();
+            Lose();
         }
     }  
 
-   
+   public void Lose() {
+        //Cargar escena perder
 
-   
-
-    //Win or lose
-    public void win()
-    {
-        //go to killingScene
-
-        Debug.Log("Ha ganado");
+        PlayerController.FindObjectOfType<PlayerController>().audioLose.Play();
     }
 
-    public void lose()
-    {
-        //Go to loseScene
-        Debug.Log("Ha perdido");
-    }
+   
 
 }

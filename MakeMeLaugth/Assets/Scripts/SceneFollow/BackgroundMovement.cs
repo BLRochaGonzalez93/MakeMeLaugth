@@ -47,5 +47,5 @@ public class BackgroundMovement : MonoBehaviour
 
     }
 
-    //TODO crear los hijos de manera dinamica
+    
 }
