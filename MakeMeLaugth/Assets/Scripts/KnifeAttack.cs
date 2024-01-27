@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,12 +8,16 @@ public class KnifeAttack : MonoBehaviour
 {
     public List<Transform> poolKnifePos;
     public Image knifeImage;
+    public TextMeshProUGUI killingPointsText;
+    public int points = 0;
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             KnifeStab();
+            points++;
+            killingPointsText.text = "Points: " + points;
         }
 
         if (Input.GetMouseButtonUp(0))
