@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2533,6 +2533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 967833913}
   - component: {fileID: 967833912}
+  - component: {fileID: 967833914}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2586,6 +2587,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &967833914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967833911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d16a2442b92210d44ac1e0453bb28237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDwoman: 0
+  woman1alive: 0
+  woman2alive: 0
 --- !u!1 &1178974328
 GameObject:
   m_ObjectHideFlags: 0

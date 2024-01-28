@@ -20,8 +20,6 @@ MonoBehaviour:
   - Hola :)
   - Heyo
   - '[Textaco]'
-
   nextId: 01000000020000000300000094010000
-
   facialExpresions:
   - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
