@@ -19296,6 +19296,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1766405585}
   - component: {fileID: 1766405586}
+  - component: {fileID: 1766405588}
+  - component: {fileID: 1766405587}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -19332,7 +19334,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToLose: 60
   timeToSpeed: 50
+  pija: {fileID: 0}
+  otaku: {fileID: 0}
   TMPTimer: {fileID: 1122573819}
+--- !u!114 &1766405587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766405584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e825effdac678d94f98887174ac2fab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1766405588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766405584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d16a2442b92210d44ac1e0453bb28237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDwoman: 0
+  woman1alive: 0
+  woman2alive: 0
 --- !u!1 &1778010432
 GameObject:
   m_ObjectHideFlags: 0
@@ -20046,6 +20077,50 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!1 &1862112836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1862112838}
+  - component: {fileID: 1862112837}
+  m_Layer: 0
+  m_Name: ControllerWomanSelect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1862112837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862112836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b863d72d77b384c9b2a8b6b139c0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1862112838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862112836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1053.9696, y: 656.63873, z: -7.5524273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1866037270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23386,3 +23461,4 @@ SceneRoots:
   - {fileID: 1360578443}
   - {fileID: 2078630631}
   - {fileID: 1806715805}
+  - {fileID: 1862112838}

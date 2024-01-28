@@ -9,12 +9,14 @@ public class GameManager : MonoBehaviour
     public float timeToLose;
     public float timeToSpeed;
 
+    public GameObject pija, otaku;
+
     public TextMeshProUGUI TMPTimer;
 
     void Start()
     {
-       
-        
+
+
     }
 
     private void Update()

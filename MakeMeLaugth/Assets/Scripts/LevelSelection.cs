@@ -17,7 +17,7 @@ public class LevelSelection : MonoBehaviour
     
 
     void Start(){
-        GirlStatus();
+        //GirlStatus();
     }
     private void GirlStatus(){
         PlayerPrefs.SetInt("status", 1);

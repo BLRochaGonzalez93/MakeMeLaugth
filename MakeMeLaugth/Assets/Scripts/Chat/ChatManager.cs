@@ -21,8 +21,7 @@ public class ChatManager : MonoBehaviour
 
     void Start()
     {
-        //girl.characterId = PlayerPrefs.GetInt("id");
-        chat = girl.conversations[0];
+        chat = girl.conversations[GetComponent<LoadManager>().GetIDWoman()];
 
         CargeQuestions();
         ChargeQuestionIds();
