@@ -394,7 +394,8 @@ MonoBehaviour:
   - 'Le voy a dar mi mejor broma. Una para morirse de la risa. '
   - 'Una broma... '
   - "\xA1para PARTIRSE!"
-  sceneName: LevelChose
+  - .
+  sceneName: FollowPath
   textSpeed: 0.03
 --- !u!1 &1315558119
 GameObject:

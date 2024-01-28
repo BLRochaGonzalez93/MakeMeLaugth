@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             //Reduce speed
-            Debug.Log("Enemigo tocado");
+            
             
             haTocado = true;
             
@@ -132,7 +132,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Lose1"))
         {
             //Lose, change scene
-            Debug.Log("Cambia escena");
+            
              SceneManager.LoadScene("YouDied");
 
         }
