@@ -161,7 +161,7 @@ public class ChatManager : MonoBehaviour
 
     public void ChargeNextR1()
     {
-        if (chat.nextId[1] == 404) SceneManager.LoadScene(4);
+        if (chat.nextId[1] == 404) SceneManager.LoadScene("Blocked");
         else if (chat.nextId[1] == 100) SceneManager.LoadScene(3);
         else
         {
