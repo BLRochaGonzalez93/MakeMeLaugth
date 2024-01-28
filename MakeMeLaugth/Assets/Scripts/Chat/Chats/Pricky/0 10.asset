@@ -13,13 +13,26 @@ MonoBehaviour:
   m_Name: 0 10
   m_EditorClassIdentifier: 
   id: 10
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - y q mas animales t gustan??? pq a mi me encantan los topos calvos
+  - me parecen top
+  - pq ademas la gente suele decir q son feos por no tener pelo
+  - oisshh, es muy tierno por tu parte
+  - "No me queda otra, pq de aqui a 5 a\xF1os yo voy a estar asi tb jajajaja"
+  - los calvos debemos apoyarnos jajajaja
+  - jijijijiji
+  - entonces t gustan pq te sientes identificado a nivel espiritual
+  idSpeaker: 0000000000000000000000000100000000000000000000000100000001000000
   response:
-  - 
-  - 
-  nextId: 940100000e000000
+  - Explicar mejor lo del topo
+  - Seguir el rollo
+  nextId: 1a0000000e000000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
   - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}

@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 23
   questionInteraction:
-  - Los animes son series animadas japoneses, mucha gente ha visto animes sin saberlo,
-    com Doraemon
+
+  - Los animes son series animadas japonesas, mucha gente ha visto animes sin saberlo,
+    como Doraemon
   - Pero a mi no me gusta eso
-  - Yo me los vea ademas en original , entonces pues se mucho de japones
+  - Yo me los veo ademas en original, entonces pues se mucho de japones
+  
   - No es sugoi? xd (eso es increible en japo)
   idSpeaker: 00000000000000000000000000000000
   response:

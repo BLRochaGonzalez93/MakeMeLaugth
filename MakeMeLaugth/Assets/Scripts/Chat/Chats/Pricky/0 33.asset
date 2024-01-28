@@ -12,14 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf27bb9e6d01b84189b2491d9c753c3, type: 3}
   m_Name: 0 33
   m_EditorClassIdentifier: 
-  id: 22
-  questionInteraction: []
-  idSpeaker: 
+  id: 33
+  questionInteraction:
+  - voy de q me encantaria q saliesemos algun dia ;)
+  - d vd crees q saldria contigo??
+  - pero si sabes q te gusto
+  - estas delusional, ve a q te mire un psicologo
+  idSpeaker: 00000000010000000000000001000000
   response:
-  - 
-  - 
-  nextId: 6400000094010000
+  - Continuar
+  nextId: 94010000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
-  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 22487d7228bc8a240a126884c5dd2495, type: 3}
+  - {fileID: 21300000, guid: 22487d7228bc8a240a126884c5dd2495, type: 3}
+  - {fileID: 21300000, guid: 22487d7228bc8a240a126884c5dd2495, type: 3}
+  - {fileID: 21300000, guid: 22487d7228bc8a240a126884c5dd2495, type: 3}
