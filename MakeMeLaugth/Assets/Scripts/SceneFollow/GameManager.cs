@@ -46,6 +46,17 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("YouDied");
     }
 
-
+    public void SelecWoman() { 
+    if(PlayerPrefs.GetInt("IDwoman") == 1)
+        {
+            pija.SetActive(false);
+            otaku.SetActive(true);
+        }
+        if (PlayerPrefs.GetInt("IDwoman") == 2)
+        {   
+            otaku.SetActive(false);
+            pija.SetActive(true);
+        }
+    }
 
 }
