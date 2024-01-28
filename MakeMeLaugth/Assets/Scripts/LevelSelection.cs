@@ -32,8 +32,8 @@ public class LevelSelection : MonoBehaviour
 
     public void SelectLevel(){
         PlayerPrefs.SetInt("id",id);
-        
         SceneManager.LoadScene("MainScene");
     }
     
+
 }

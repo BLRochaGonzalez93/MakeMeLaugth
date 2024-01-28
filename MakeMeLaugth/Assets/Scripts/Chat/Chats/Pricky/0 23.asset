@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf27bb9e6d01b84189b2491d9c753c3, type: 3}
+  m_Name: 0 23
+  m_EditorClassIdentifier: 
+  id: 23
+  questionInteraction:
+  - Los animes son series animadas japoneses, mucha gente ha visto animes sin saberlo,
+    com Doraemon
+  - Pero a mi no me gusta eso
+  - Yo me los vea ademas en original , entonces pues se mucho de japones
+  - No es sugoi? xd (eso es increible en japo)
+  idSpeaker: 00000000000000000000000000000000
+  response:
+  - Continuar
+  nextId: 94010000
+  facialExpresions:
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 22487d7228bc8a240a126884c5dd2495, type: 3}
+  - {fileID: 21300000, guid: 22487d7228bc8a240a126884c5dd2495, type: 3}
+  - {fileID: 21300000, guid: 22487d7228bc8a240a126884c5dd2495, type: 3}

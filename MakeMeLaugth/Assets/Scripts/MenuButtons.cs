@@ -24,13 +24,10 @@ public class MenuButtons : MonoBehaviour
        
         SceneManager.LoadScene("Credits");
     }
-<<<<<<< Updated upstream
-=======
 
     public void PlaySoundClick()
     {
         ClickSound.Play();
     }
-    
->>>>>>> Stashed changes
+
 }
