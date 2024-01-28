@@ -8,6 +8,7 @@ public class ChatBehaviour : ScriptableObject
     public int id;
 
     public List<string> questionInteraction; 
+    public List<int> idSpeaker; 
     public List<string> response;
     public List<int> nextId;
 }

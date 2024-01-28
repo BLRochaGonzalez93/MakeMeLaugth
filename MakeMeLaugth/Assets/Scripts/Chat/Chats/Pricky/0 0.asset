@@ -21,6 +21,7 @@ MonoBehaviour:
   - guay
   - "\xBF\xBF\xBF\xBF????"
   - "\xA1\xA1\xA1\xA1!!!!"
+  idSpeaker: 00000000010000000000000000000000000000000000000000000000
   response:
   - R1
   - R2
