@@ -224,7 +224,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 335.33777, w: 0}
+  m_margin: {x: 0, y: 69.98343, z: 335.33777, w: 46.655457}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -383,37 +383,17 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1315558119}
   textComponent: {fileID: 311575369}
   lines:
-  - "Esta es la historia de Marcelo. Una historia llena de risas y l\xE1grimas, de
-    amor y citas. "
-  - Marcelo es un virg- programador apasionado por el mundo de los videojuegos. Quiere
-    a su madre, es fullstack y amigo de sus amigos. Un trozo de pan, vamos.
-  - "Ni fuma ni bebe, aunque juega al LoL. No sale de plata, pero no pasa nada; \xE9l
-    es feliz so\xF1ando con la skin Victoriosa.  es un virg- programador apasionado
-    por el mundo de los videojuegos. Quiere a su madre, es fullstack y amigo de sus
-    amigos. Un trozo de pan, vamos."
-  - "As\xED pasaba sus noches, cuando tras perder la \xFAltima promo de la temporada,
-    se dio cuenta de algo que le cambiar\xEDa la vida: lo fr\xEDas que son las noches
-    cuando la cama est\xE1 vac\xEDa."
-  - Lamentablemente no es demasiado apuesto, y no tiene experiencia hablando con
-    chicas.
-  - "Desolado ante este hecho, Marcelo se dio cuenta de una cosa: si quer\xEDa fo-
-    darle todo su amor a una dama y fundirse con ella en el fragor de la noche, iba
-    a tener que ser creativo."
-  - "Tras pensarlo mucho, Marcelo lleg\xF3 a una conclusi\xF3n: la risa. A las chicas
-    les gusta re\xEDrse. ante este hecho, Marcelo de dio cuenta de una cosa: si quer\xEDa
-    fo- darle todo su amor a una dama y fundirse con ella en el fragor de la noche,
-    iba a tener que ser creativo."
-  - "Al d\xEDa siguiente, desbordante de determinaci\xF3n, y muerto de nervios, fue
-    al gimnasio. Estaba haciendo piernas (porque Marcelo es un chico humilde, no
-    un ego lifter de esos) cuando una chica se le acerc\xF3 a preguntarle cu\xE1nto
-    le faltaba. Casi de da un infarto, pero, titubeando, consigui\xF3 articular palabra:
-    \"Ee- esta es la \xFA-ltima...\"."
-  - "Pens\xF3 en pedirle el n\xFAmero, pero inmediatamente se dio cuenta que no podr\xEDa.
-    Derrotado, se fue a casa. Se acost\xF3, y el fr\xEDo cal\xF3 en los huesos de
-    nuevo. Llam\xF3 a Vladimir, \xE9l siempre le consolaba; pero nada.  "
-  - "Las chicas dan miedo... ser\xE1 mejor empezar en 2d. \xA1Eh, t\xFA! S\xED, t\xFA.
-    No me mires as\xED. Por algo se empieza. Adem\xE1s, van a ser chicas de verdad,
-    no un simulador de citas. Eso es de v\xEDrgenes."
+  - "No me lo puedo creer... \xA1Hemos quedado!"
+  - " \xBFVamos a quedar, no....?"
+  - " \xBFSe va a rajar en el \xFAltimo momento? \xBFNo verdad? \xBFQuiere burlarse
+    de m\xED?"
+  - No, no puede ser... es tan maja... es diferente.
+  - " S\xED."
+  - "Se r\xEDe conmigo. No es como los dem\xE1s... Le gustan mis bromas... "
+  - " Tengo que hacerla re\xEDr. Por eso le gusto. "
+  - 'Le voy a dar mi mejor broma. Una para morirse de la risa. '
+  - 'Una broma... '
+  - "\xA1para PARTIRSE!"
   sceneName: LevelChose
   textSpeed: 0.03
 --- !u!1 &1315558119
