@@ -89,13 +89,15 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Woman"))
         {
-           
+           // win
             audioWin.Play();
             SceneManager.LoadScene("KillingScene");
             
         }
+        //TODO crear otro tag para cambiar escena
         if (other.CompareTag("Enemy"))
         {
+            //Reduce speed
             Debug.Log("Enemigo tocado");
             
             haTocado = true;
@@ -105,7 +107,15 @@ public class PlayerController : MonoBehaviour
         {
             //Lose
             audioLose.Play();
-            Debug.Log("Ha perdido");
+           // SceneManager.LoadScene("YouDied");
+            
+        } 
+        if (other.CompareTag("Lose1"))
+        {
+            //Lose, change scene
+            Debug.Log("Cambia escena");
+             SceneManager.LoadScene("YouDied");
+
         }
 
     }

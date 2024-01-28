@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -40,9 +41,9 @@ public class GameManager : MonoBehaviour
    public void Lose() {
         //Cargar escena perder
 
-        PlayerController.FindObjectOfType<PlayerController>().audioLose.Play();
+        SceneManager.LoadScene("YouDied");
     }
 
-   
+
 
 }
