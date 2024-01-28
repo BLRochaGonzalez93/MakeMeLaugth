@@ -297,6 +297,7 @@ MonoBehaviour:
   - "Las chicas dan miedo... ser\xE1 mejor empezar en 2d. \xA1Eh, t\xFA! S\xED, t\xFA.
     No me mires as\xED. Por algo se empieza. Adem\xE1s, van a ser chicas de verdad,
     no un simulador de citas. Eso es de v\xEDrgenes."
+  - ...
   sceneName: LevelChose
   textSpeed: 0.03
 --- !u!1 &401911162
@@ -682,7 +683,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
 --- !u!1 &1056070131
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,10 +841,10 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952176456}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 294358912db4d0d4e8af4046fec26723, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cb85a36fd263e014fb5aee320cb6ba2c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -945,13 +945,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 188006805}
   - {fileID: 401911166}
-
   - {fileID: 994332817}
   - {fileID: 1952176458}

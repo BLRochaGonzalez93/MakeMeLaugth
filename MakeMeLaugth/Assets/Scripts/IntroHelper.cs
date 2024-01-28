@@ -102,7 +102,7 @@ public class IntroHelper : MonoBehaviour
     void CheckIfLastText()
     {
         Debug.Log("index: "+index);
-        if (index >= lines.Length)
+        if (index >= lines.Length-1)
         {
             SceneManager.LoadScene(sceneName);
         }
