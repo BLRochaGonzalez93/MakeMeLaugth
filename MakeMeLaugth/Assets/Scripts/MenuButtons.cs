@@ -5,20 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtons : MonoBehaviour
 {
-       
+    public AudioSource ClickSound;
 
     public void SelectStart()
     {
+        
         SceneManager.LoadScene("LevelChose");
     }
 
     public void SelectExit()
     {
+        
         Application.Quit();
 
     }
     public void SelectCredits()
     {
+       
         SceneManager.LoadScene("Credits");
     }
+<<<<<<< Updated upstream
+=======
+
+    public void PlaySoundClick()
+    {
+        ClickSound.Play();
+    }
+    
+>>>>>>> Stashed changes
 }

@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioSource audioWin;
     public AudioSource audioLose;
     public bool haTocado=false;
+    public bool haTocadoS=false;
     public bool isJumping;
     public bool audioRSpeed;
     void Start()
@@ -78,6 +79,15 @@ public class PlayerController : MonoBehaviour
             }
             player.velocity = Vector2.left * speedToReduce;
         }
+        if(haTocadoS==true)
+        {
+            //audioReduceSpeed.Play();
+            if(audioRSpeed==false)
+            {
+                PlayReduceSpeedSound();
+            }
+            player.velocity = Vector2.left * speedToReduce*2;
+        }
         
     }
     public void PlayReduceSpeedSound()
@@ -102,7 +112,16 @@ public class PlayerController : MonoBehaviour
             
             haTocado = true;
             
+        } 
+        if (other.CompareTag("EnemyS"))
+        {
+            //Reduce speed
+            
+            
+            haTocadoS = true;
+            
         }
+
         if (other.CompareTag("Lose"))
         {
             //Lose
@@ -126,6 +145,12 @@ public class PlayerController : MonoBehaviour
             haTocado = false;
             audioRSpeed=false;
         }
+        if (collision.CompareTag("EnemyS"))
+        {
+            haTocadoS = false;
+            audioRSpeed=false;
+        }
+
     }
 
 }

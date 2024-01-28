@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 58ae057e0016eba43b205c6e9bb2f95c
+guid: 2b7a0e42b5668544c971d5c57a76d97a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,133 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Animacion_Otaku_0
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 53
-        width: 1106
-        height: 1652
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebc6430475b21a6429ee9712045382f9
-      internalID: 1906919843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animacion_Otaku_1
-      rect:
-        serializedVersion: 2
-        x: 1445
-        y: 53
-        width: 1137
-        height: 1633
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5dafa5dc349c5c4bbfb232a07523b5c
-      internalID: -1438040443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animacion_Otaku_2
-      rect:
-        serializedVersion: 2
-        x: 2699
-        y: 64
-        width: 1110
-        height: 1610
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 111b9666c0e7a1a4a9ffc3d9cba2307f
-      internalID: 204011879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animacion_Otaku_3
-      rect:
-        serializedVersion: 2
-        x: 3941
-        y: 64
-        width: 1156
-        height: 1594
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 858c2e74ba6d8a74e9e2b13d80e29435
-      internalID: 379783965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animacion_Otaku_4
-      rect:
-        serializedVersion: 2
-        x: 5221
-        y: 72
-        width: 1168
-        height: 1586
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea9d49f894e612b4e92d004ebb1edc9f
-      internalID: 810157458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animacion_Otaku_5
-      rect:
-        serializedVersion: 2
-        x: 6492
-        y: 72
-        width: 1123
-        height: 1544
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7623f22921fadbd428ccdaad2c82240b
-      internalID: -1246688535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -258,13 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Animacion_Otaku_0: 1906919843
-      Animacion_Otaku_1: -1438040443
-      Animacion_Otaku_2: 204011879
-      Animacion_Otaku_3: 379783965
-      Animacion_Otaku_4: 810157458
-      Animacion_Otaku_5: -1246688535
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
