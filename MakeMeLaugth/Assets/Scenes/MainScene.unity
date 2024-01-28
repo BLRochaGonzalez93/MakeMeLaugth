@@ -1974,6 +1974,8 @@ MonoBehaviour:
   - {fileID: 1457460565}
   - {fileID: 1813868804}
   - {fileID: 1788655602}
+  blobHer: {fileID: 21300000, guid: 704a3f35fa21edb4cad54450ee761c32, type: 3}
+  blobHim: {fileID: 21300000, guid: c61e49a3e407b634e9eee52fc5812b58, type: 3}
 --- !u!4 &967833913
 Transform:
   m_ObjectHideFlags: 0

@@ -1,7 +1,5 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,9 +10,13 @@ public class ChatManager : MonoBehaviour
     public CharacterChatBehaviour girl;
 
     public List<string> questions;
+    public List<int> questionsIDs;
+    public List<Sprite> facialExpresionAsResponse;
     public List<Image> chatBlob;
     public List<TextMeshProUGUI> responses;
     private ChatBehaviour chat;
+    public Sprite blobHer;
+    public Sprite blobHim;
 
     void Start()
     {
@@ -22,8 +24,10 @@ public class ChatManager : MonoBehaviour
         chat = girl.conversations[0];
 
         CargeQuestions();
+        ChargeQuestionIds();
+        ChargeFacialExpresions();
         ChargeResponses();
-        
+
         StartCoroutine(ReplaceTexts());
     }
 
@@ -37,6 +41,32 @@ public class ChatManager : MonoBehaviour
         for (int i = 0; i < chat.questionInteraction.Count; i++)
         {
             questions.Add(chat.questionInteraction[i]);
+        }
+    }
+
+    private void ChargeQuestionIds()
+    {
+        for (int i = 0; i < questionsIDs.Count; i++)
+        {
+            questionsIDs.Clear();
+        }
+
+        for (int i = 0; i < chat.idSpeaker.Count; i++)
+        {
+            questionsIDs.Add(chat.idSpeaker[i]);
+        }
+    }
+
+    private void ChargeFacialExpresions()
+    {
+        for (int i = 0; i < facialExpresionAsResponse.Count; i++)
+        {
+            facialExpresionAsResponse.Clear();
+        }
+
+        for (int i = 0; i < chat.facialExpresions.Count; i++)
+        {
+            facialExpresionAsResponse.Add(chat.facialExpresions[i]);
         }
     }
 
@@ -64,6 +94,8 @@ public class ChatManager : MonoBehaviour
                 if (chatBlob[i].gameObject.activeSelf == false)
                 {
                     chatBlob[i].gameObject.SetActive(true);
+                    if (questionsIDs[i] == 0) chatBlob[i].gameObject.GetComponent<Image>().sprite = blobHim;
+                    else chatBlob[i].gameObject.GetComponent<Image>().sprite = blobHer;
                     chatBlob[i].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = questions[i];
                 }
                 yield return new WaitForSeconds(1f);
@@ -76,6 +108,8 @@ public class ChatManager : MonoBehaviour
                 if (chatBlob[i].gameObject.activeSelf == false)
                 {
                     chatBlob[i].gameObject.SetActive(true);
+                    if (questionsIDs[i] == 0) chatBlob[i].gameObject.GetComponent<Image>().sprite = blobHim;
+                    else chatBlob[i].gameObject.GetComponent<Image>().sprite = blobHer;
                     chatBlob[i].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = questions[i];
                 }
                 yield return new WaitForSeconds(1f);
@@ -83,14 +117,16 @@ public class ChatManager : MonoBehaviour
 
             for (int i = chatBlob.Count; i < questions.Count; i++)
             {
-
                 for (int j = 1; j < chatBlob.Count; j++)
                 {
-                    chatBlob[j-1].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = chatBlob[j].gameObject.GetComponentInChildren<TextMeshProUGUI>().text;
+                    chatBlob[j - 1].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = chatBlob[j].gameObject.GetComponentInChildren<TextMeshProUGUI>().text;
+                    chatBlob[j - 1].gameObject.GetComponent<Image>().sprite = chatBlob[j].gameObject.GetComponent<Image>().sprite;
+                    if (questionsIDs[i] == 0) chatBlob[j].gameObject.GetComponent<Image>().sprite = blobHim;
+                    else chatBlob[j].gameObject.GetComponent<Image>().sprite = blobHer;
                 }
 
-                chatBlob[chatBlob.Count-1].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = questions[i];
-                
+                chatBlob[chatBlob.Count - 1].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = questions[i];
+
                 yield return new WaitForSeconds(1f);
             }
         }
@@ -112,6 +148,8 @@ public class ChatManager : MonoBehaviour
             chat = chat2;
 
             CargeQuestions();
+            ChargeQuestionIds();
+            ChargeFacialExpresions();
             ChargeResponses();
 
             StartCoroutine(ReplaceTexts());
@@ -128,6 +166,8 @@ public class ChatManager : MonoBehaviour
             chat = chat2;
 
             CargeQuestions();
+            ChargeQuestionIds();
+            ChargeFacialExpresions();
             ChargeResponses();
 
             StartCoroutine(ReplaceTexts());
@@ -144,6 +184,8 @@ public class ChatManager : MonoBehaviour
             chat = chat2;
 
             CargeQuestions();
+            ChargeQuestionIds();
+            ChargeFacialExpresions();
             ChargeResponses();
 
             StartCoroutine(ReplaceTexts());
@@ -160,6 +202,8 @@ public class ChatManager : MonoBehaviour
             chat = chat2;
 
             CargeQuestions();
+            ChargeQuestionIds();
+            ChargeFacialExpresions();
             ChargeResponses();
 
             StartCoroutine(ReplaceTexts());
