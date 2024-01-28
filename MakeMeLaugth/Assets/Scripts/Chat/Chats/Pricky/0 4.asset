@@ -13,13 +13,18 @@ MonoBehaviour:
   m_Name: 0 4
   m_EditorClassIdentifier: 
   id: 4
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - Se que es un poco de friki, pero me gustan mucho
+  - Sobre todo si son de aventura, como SAO, q no se si lo conoces
+  - Pero esta muy bien
+  - Pues no, no lo habia oido nunca
+  idSpeaker: 00000000000000000000000001000000
   response:
-  - 
-  - 
-  nextId: 9401000006000000
+  - Seguir hablando sobre anime
+  - Preguntarle sobre ella
+  nextId: 1800000006000000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
   - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}

@@ -13,13 +13,20 @@ MonoBehaviour:
   m_Name: 0 21
   m_EditorClassIdentifier: 
   id: 21
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - ahhh, buen equipo
+  - yo es q soy mas del betis
+  - y has jugado alguna vez??
+  - alguna, aunq solo de defensa
+  - y tampoco se me daba muy bien jijijiji
+  idSpeaker: 0000000000000000000000000100000001000000
   response:
-  - 
-  - 
-  nextId: 1600000094010000
+  - "Seguir la conversaci\xF3n"
+  - Explicarle como hacer una buena defensa
+  nextId: 1600000022000000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
   - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}

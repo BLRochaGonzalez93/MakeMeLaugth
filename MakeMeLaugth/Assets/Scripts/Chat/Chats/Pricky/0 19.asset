@@ -13,13 +13,24 @@ MonoBehaviour:
   m_Name: 0 19
   m_EditorClassIdentifier: 
   id: 19
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - yo tambien prefiero hacer ejercicio en casa
+  - asi no tengo q salir
+  - y me ahorro a los machirulos del gym
+  - entiendo...
+  - aunque bno tienes pq echarles cuenta
+  - lo see
+  - pero creo q preferiria unirme al yoga en casa
+  idSpeaker: 00000000000000000000000001000000010000000000000000000000
   response:
-  - 
-  - 
-  nextId: 6400000014000000
+  - Pedir salir
+  - Bromear
+  nextId: 2400000014000000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
   - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}

@@ -14,15 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   questionInteraction:
-  - "Que te pasa en la cabeza amig\xFCito?"
-  - Me sube la bilirrubina, cuando te miro y tu me miras
-  - Que?
-  idSpeaker: 
+  - q es eso???
+  - Es hola en japones xd
+  - 'jolin '
+  - q listo
+  - No es que sea listo jajaja
+  - Es que veo mucho anime
+  idSpeaker: 010000000000000001000000010000000000000000000000
   response:
-  - 
-  - 
-  nextId: 9401000004000000
+  - "Explicaci\xF3n sobre anime"
+  - Hablar sobre animes favoritos
+  nextId: 1700000004000000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
   - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}

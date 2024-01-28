@@ -13,13 +13,22 @@ MonoBehaviour:
   m_Name: 0 8
   m_EditorClassIdentifier: 
   id: 8
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - Es vd, se llamaba sisi, no??
+  - Sii, q guay q te acuerdes
+  - Claro, es q me encantan los perros
+  - btw, q raza es?
+  - a mi tb me encantan los perros jijijij
+  - y es una pomeranian
+  idSpeaker: 000000000100000000000000000000000100000001000000
   response:
-  - 
-  - 
+  - Seguir la conversacion
+  - Bromear
   nextId: 0b0000000c000000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
-  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: da2e6d3af5c99d54ea9505e3cd7a0b5f, type: 3}
+  - {fileID: 21300000, guid: da2e6d3af5c99d54ea9505e3cd7a0b5f, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}

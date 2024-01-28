@@ -13,13 +13,20 @@ MonoBehaviour:
   m_Name: 0 7
   m_EditorClassIdentifier: 
   id: 7
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - Q guay q tengas un perrito
+  - Yo tengo un periquito muy mono, se llama Sakura
+  - oisshhh los periquitos me encantan
+  - aunque no tanto como los pinguinos
+  - Es q los pinguinos son top
+  idSpeaker: 0000000000000000010000000100000000000000
   response:
-  - 
-  - 
+  - Seguir hablando sobre animales
+  - Cambiar de tema
   nextId: 0a0000000d000000
   facialExpresions:
-  - {fileID: 21300000, guid: 378f475ab7c15a34e9924d4150740ba5, type: 3}
-  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
-  - {fileID: 21300000, guid: 48ed738e72380cf478f86663ae2a0d17, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
+  - {fileID: 21300000, guid: da2e6d3af5c99d54ea9505e3cd7a0b5f, type: 3}
+  - {fileID: 21300000, guid: da2e6d3af5c99d54ea9505e3cd7a0b5f, type: 3}
+  - {fileID: 21300000, guid: 5fb4e06469a859e49a658a450c1c343b, type: 3}
