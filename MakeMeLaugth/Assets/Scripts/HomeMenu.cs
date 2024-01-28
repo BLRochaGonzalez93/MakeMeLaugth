@@ -16,7 +16,7 @@ public class HomeMenu : MonoBehaviour
 
     public void GoBackToTheMenu()
     {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("Menu");
     }
     
     // Update is called once per frame
