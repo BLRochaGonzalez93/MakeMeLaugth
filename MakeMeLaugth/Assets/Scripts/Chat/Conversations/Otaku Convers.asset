@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aea6a31e953b2c448999f93a2b3e134, type: 3}
   m_Name: Otaku Convers
   m_EditorClassIdentifier: 
-  characterId: 2
+  characterId: 1
   conversations: []

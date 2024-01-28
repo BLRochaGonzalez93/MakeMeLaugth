@@ -21,7 +21,7 @@ public class ChatManager : MonoBehaviour
 
     void Start()
     {
-        chat = girl.conversations[GetComponent<LoadManager>().GetIDWoman()];
+        chat = girl.conversations[PlayerPrefs.GetInt("IDwoman")];
 
         CargeQuestions();
         ChargeQuestionIds();
@@ -143,7 +143,7 @@ public class ChatManager : MonoBehaviour
 
     public void ChargeNextR0()
     {
-        if (chat.nextId[0] == 404) SceneManager.LoadScene(4);
+        if (chat.nextId[0] == 404) SceneManager.LoadScene("Blocked");
         else if (chat.nextId[0] == 100) SceneManager.LoadScene(3);
         else
         {
@@ -179,7 +179,7 @@ public class ChatManager : MonoBehaviour
 
     public void ChargeNextR2()
     {
-        if (chat.nextId[2] == 404) SceneManager.LoadScene(4);
+        if (chat.nextId[2] == 404) SceneManager.LoadScene("Blocked");
         else if (chat.nextId[2] == 100) SceneManager.LoadScene(3);
         else
         {
@@ -197,7 +197,7 @@ public class ChatManager : MonoBehaviour
 
     public void ChargeNextR3()
     {
-        if (chat.nextId[3] == 404) SceneManager.LoadScene(4);
+        if (chat.nextId[3] == 404) SceneManager.LoadScene("Blocked");
         else if (chat.nextId[3] == 100) SceneManager.LoadScene(3);
         else
         {

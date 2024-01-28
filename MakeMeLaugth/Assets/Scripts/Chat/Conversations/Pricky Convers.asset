@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aea6a31e953b2c448999f93a2b3e134, type: 3}
   m_Name: Pricky Convers
   m_EditorClassIdentifier: 
-  characterId: 1
+  characterId: 0
   conversations:
   - {fileID: 11400000, guid: 1ae8f62e13465d74da2394a5c1aab045, type: 2}
   - {fileID: 11400000, guid: 62d068e0035d19548a5e92d3907c4713, type: 2}
@@ -37,4 +37,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f0b01bff32219f4dbd0e49ae55f4496, type: 2}
   - {fileID: 11400000, guid: 61cda948837519b4c86cb47ca9de0ab4, type: 2}
   - {fileID: 11400000, guid: ca001af72c084e94cac9713e6d86a5d4, type: 2}
-  - {fileID: 11400000, guid: 9d62bf95ff63abb4586be20c7212c003, type: 2}
+  - {fileID: 11400000, guid: f908ed07d26a2cd468dea0e2166304a5, type: 2}
+  - {fileID: 11400000, guid: 62c47a41a7eb2f44c960132fc14d7a4e, type: 2}
+  - {fileID: 11400000, guid: b4b7e6e8461a1a240ad5c8ff83a68bc9, type: 2}
+  - {fileID: 11400000, guid: 04c42be973bc33243b5e6891699d6bf3, type: 2}
+  - {fileID: 11400000, guid: 7acb511f2939f2d488a072ed56c06150, type: 2}
+  - {fileID: 11400000, guid: bff674ff452b6914092665d34b0f29ad, type: 2}
+  - {fileID: 11400000, guid: e57dfe249773c254abce180157d2f805, type: 2}
+  - {fileID: 11400000, guid: 2b9ffb3784745a843a4f74a13dc321e6, type: 2}
+  - {fileID: 11400000, guid: 22c44c7457afa7144ba3565c446a68ff, type: 2}
+  - {fileID: 11400000, guid: dd4ec1c5959ea144faa174298f54d295, type: 2}
+  - {fileID: 11400000, guid: bbddd58daf2d72f4b8c6823e0b1a2643, type: 2}
+  - {fileID: 11400000, guid: 8c73d30dbbb974c46804af5f72c5917d, type: 2}
+  - {fileID: 11400000, guid: 97267c6e41c1a81498875a0283484b09, type: 2}
+  - {fileID: 11400000, guid: ac9aa003572ef4448a60b1175db5faca, type: 2}
+  - {fileID: 11400000, guid: 204c6c9e2ec0d584a84fc29d16e6ab74, type: 2}
