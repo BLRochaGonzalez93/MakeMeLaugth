@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Lose
   - Lose1
+  - EnemyS
   layers:
   - Default
   - TransparentFX
