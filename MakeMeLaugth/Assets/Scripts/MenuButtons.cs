@@ -10,7 +10,7 @@ public class MenuButtons : MonoBehaviour
     public void SelectStart()
     {
         
-        SceneManager.LoadScene("LevelChose");
+        SceneManager.LoadScene("Intro");
     }
 
     public void SelectExit()

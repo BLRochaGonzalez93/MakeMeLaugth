@@ -28,6 +28,8 @@ public class ChatManager : MonoBehaviour
         ChargeFacialExpresions();
         ChargeResponses();
 
+        girlImage.sprite = facialExpresionAsResponse[0];
+
         StartCoroutine(ReplaceTexts());
     }
 
@@ -144,7 +146,7 @@ public class ChatManager : MonoBehaviour
     public void ChargeNextR0()
     {
         if (chat.nextId[0] == 404) SceneManager.LoadScene("Blocked");
-        else if (chat.nextId[0] == 100) SceneManager.LoadScene(3);
+        else if (chat.nextId[0] == 100) SceneManager.LoadScene("Monologue");
         else
         {
             ChatBehaviour chat2 = girl.conversations[chat.nextId[0]];
