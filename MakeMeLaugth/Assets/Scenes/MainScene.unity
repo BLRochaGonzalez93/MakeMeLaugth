@@ -2554,6 +2554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   girl: {fileID: 11400000, guid: 915a792b718a1114ea08831a5a296782, type: 2}
   questions: []
+  questionsIDs: 
+  facialExpresionAsResponse: []
   chatBlob:
   - {fileID: 1773948937}
   - {fileID: 860206791}
@@ -2567,6 +2569,8 @@ MonoBehaviour:
   - {fileID: 1788655602}
   blobHer: {fileID: 21300000, guid: 704a3f35fa21edb4cad54450ee761c32, type: 3}
   blobHim: {fileID: 21300000, guid: c61e49a3e407b634e9eee52fc5812b58, type: 3}
+  girlImage: {fileID: 11075438}
+  guyImage: {fileID: 599539184}
 --- !u!4 &967833913
 Transform:
   m_ObjectHideFlags: 0

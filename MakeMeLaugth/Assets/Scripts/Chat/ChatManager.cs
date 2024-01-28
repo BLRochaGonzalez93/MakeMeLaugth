@@ -17,6 +17,7 @@ public class ChatManager : MonoBehaviour
     private ChatBehaviour chat;
     public Sprite blobHer;
     public Sprite blobHim;
+    public Image girlImage, guyImage;
 
     void Start()
     {
@@ -98,6 +99,7 @@ public class ChatManager : MonoBehaviour
                     else chatBlob[i].gameObject.GetComponent<Image>().sprite = blobHer;
                     chatBlob[i].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = questions[i];
                 }
+                girlImage.sprite = facialExpresionAsResponse[i];
                 yield return new WaitForSeconds(1f);
             }
         }
@@ -112,6 +114,7 @@ public class ChatManager : MonoBehaviour
                     else chatBlob[i].gameObject.GetComponent<Image>().sprite = blobHer;
                     chatBlob[i].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = questions[i];
                 }
+                girlImage.sprite = facialExpresionAsResponse[i];
                 yield return new WaitForSeconds(1f);
             }
 
@@ -126,6 +129,7 @@ public class ChatManager : MonoBehaviour
                 }
 
                 chatBlob[chatBlob.Count - 1].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = questions[i];
+                girlImage.sprite = facialExpresionAsResponse[i];
 
                 yield return new WaitForSeconds(1f);
             }
