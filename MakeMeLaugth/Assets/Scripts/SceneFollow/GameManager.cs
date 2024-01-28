@@ -1,25 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public float timeToLose;
-    
+    public float timeToSpeed;
+
+    public TextMeshProUGUI TMPTimer;
 
     void Start()
     {
+       
         
     }
 
-    
-    void Update()
+    private void Update()
     {
-        
+        TMPTimer.text = Mathf.RoundToInt( timeToLose).ToString();
     }
+
     private void FixedUpdate()
     {
         TimeGone();
+       
+
     }
 
     //Time Magnagement
@@ -27,22 +34,16 @@ public class GameManager : MonoBehaviour
 
         timeToLose -= 1f * Time.fixedDeltaTime;
         if (timeToLose <= 0f) {
-            lose();
+            Lose();
         }
     }  
 
-    //Win or lose
-    public void win()
-    {
-        //go to killingScene
+   public void Lose() {
+        //Cargar escena perder
 
-        Debug.Log("Ha ganado");
+        SceneManager.LoadScene("YouDied");
     }
 
-    public void lose()
-    {
-        //Go to loseScene
-        Debug.Log("Ha perdido");
-    }
+
 
 }
