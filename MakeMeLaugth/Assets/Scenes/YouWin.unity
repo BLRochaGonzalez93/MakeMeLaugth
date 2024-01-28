@@ -629,6 +629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingText: {fileID: 1650429116}
   sceneIndex: 1
+  maxTime: 5
 --- !u!4 &1354780640
 Transform:
   m_ObjectHideFlags: 0

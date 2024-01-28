@@ -11,7 +11,7 @@ public class AutoLoad : MonoBehaviour
     public TextMeshProUGUI loadingText;
     public int sceneIndex;
     private float timer;
-    private float maxTime;
+    public float maxTime;
 
     private State state = State.COMPLETED;
 
@@ -24,7 +24,7 @@ public class AutoLoad : MonoBehaviour
     void Start()
     {
         timer = 0;
-        maxTime = 5;
+        //maxTime = 5;
         StartCoroutine(TypeText("Cargando..."));
     }
 
