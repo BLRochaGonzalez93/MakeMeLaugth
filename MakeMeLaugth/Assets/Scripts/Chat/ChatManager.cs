@@ -7,21 +7,25 @@ using UnityEngine.UI;
 
 public class ChatManager : MonoBehaviour
 {
-    public CharacterChatBehaviour girl;
+    public List<CharacterChatBehaviour> girls;
 
     public List<string> questions;
     public List<int> questionsIDs;
     public List<Sprite> facialExpresionAsResponse;
+    public List<string> responses;
     public List<Image> chatBlob;
-    public List<TextMeshProUGUI> responses;
+    public List<Button> chatRespButt;
     private ChatBehaviour chat;
     public Sprite blobHer;
     public Sprite blobHim;
     public Image girlImage, guyImage;
+    public int conversation;
 
     void Start()
     {
-        chat = girl.conversations[PlayerPrefs.GetInt("IDwoman")];
+        conversation = PlayerPrefs.GetInt("IDwoman");
+        
+        chat = girls[conversation].conversations[0];
 
         CargeQuestions();
         ChargeQuestionIds();
@@ -76,7 +80,17 @@ public class ChatManager : MonoBehaviour
     {
         for (int i = 0; i < responses.Count; i++)
         {
-            responses[i].gameObject.transform.parent.gameObject.SetActive(false);
+            responses.Clear();
+        }
+
+        for (int i = 0; i < chat.response.Count; i++)
+        {
+            responses.Add(chat.response[i]);
+        }
+
+        for (int i = 0; i < chatRespButt.Count; i++)
+        {
+            chatRespButt[i].transform.gameObject.SetActive(false);
         }
     }
 
@@ -138,8 +152,8 @@ public class ChatManager : MonoBehaviour
 
         for (int i = 0; i < chat.response.Count; i++)
         {
-            responses[i].text = chat.response[i];
-            responses[i].gameObject.transform.parent.gameObject.SetActive(true);
+            chatRespButt[i].transform.GetChild(0).GetComponentInChildren<TextMeshProUGUI>().text = responses[i];
+            chatRespButt[i].gameObject.SetActive(true);
         }
     }
 
@@ -149,7 +163,7 @@ public class ChatManager : MonoBehaviour
         else if (chat.nextId[0] == 100) SceneManager.LoadScene("Monologue");
         else
         {
-            ChatBehaviour chat2 = girl.conversations[chat.nextId[0]];
+            ChatBehaviour chat2 = girls[conversation].conversations[chat.nextId[0]];
             chat = chat2;
 
             CargeQuestions();
@@ -167,7 +181,7 @@ public class ChatManager : MonoBehaviour
         else if (chat.nextId[1] == 100) SceneManager.LoadScene(3);
         else
         {
-            ChatBehaviour chat2 = girl.conversations[chat.nextId[1]];
+            ChatBehaviour chat2 = girls[conversation].conversations[chat.nextId[1]];
             chat = chat2;
 
             CargeQuestions();
@@ -185,7 +199,7 @@ public class ChatManager : MonoBehaviour
         else if (chat.nextId[2] == 100) SceneManager.LoadScene(3);
         else
         {
-            ChatBehaviour chat2 = girl.conversations[chat.nextId[2]];
+            ChatBehaviour chat2 = girls[conversation].conversations[chat.nextId[2]];
             chat = chat2;
 
             CargeQuestions();
@@ -203,7 +217,7 @@ public class ChatManager : MonoBehaviour
         else if (chat.nextId[3] == 100) SceneManager.LoadScene(3);
         else
         {
-            ChatBehaviour chat2 = girl.conversations[chat.nextId[3]];
+            ChatBehaviour chat2 = girls[conversation].conversations[chat.nextId[3]];
             chat = chat2;
 
             CargeQuestions();

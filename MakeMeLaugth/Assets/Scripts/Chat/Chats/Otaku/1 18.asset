@@ -12,9 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf27bb9e6d01b84189b2491d9c753c3, type: 3}
   m_Name: 1 18
   m_EditorClassIdentifier: 
-  id: 12
-  questionInteraction: []
-  idSpeaker: 
+  id: 18
+  questionInteraction:
+  - ya y a mi
+  - Resonanciaa!!
+  - jajaj siii
+  - me encanta nobara (nya!)
+  - es dura de pelar
+  idSpeaker: 0000000000000000010000000100000001000000
   response:
-  - 
-  nextId: 15000000
+  - "Mi clavo s\xED que es duro de pelar"
+  - Jugamos a un juego?
+  nextId: 1400000015000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}

@@ -7,8 +7,24 @@ public class LaugthController : MonoBehaviour
 {
     public AudioSource LaugthSound;
 
+    public List<GameObject> girls;
+    public int girlID;
+
     private void Start()
     {
+        girlID = PlayerPrefs.GetInt("IDwoman");
+        for (int i = 0; i < girls.Count; i++)
+        {
+            if (i == girlID)
+            {
+                girls[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                girls[i].gameObject.SetActive(false);
+            }
+        }
+
         StartCoroutine(StartToLaught());
     }
     IEnumerator StartToLaught()

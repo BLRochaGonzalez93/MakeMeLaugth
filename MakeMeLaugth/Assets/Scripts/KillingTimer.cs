@@ -11,6 +11,7 @@ public class KillingTimer : MonoBehaviour
     public Image timeImage;
 
     public int sceneIndex;
+    private int girlID;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,9 @@ public class KillingTimer : MonoBehaviour
         {
             PlayerPrefs.SetInt("Score", GetComponent<KnifeAttack>().points);
             SceneManager.LoadScene(sceneIndex);
-
+            girlID = PlayerPrefs.GetInt("IDwoman");
+            string wm = "woman" + girlID + "alive";
+            PlayerPrefs.SetInt(wm, 0);
         }
     }
 }

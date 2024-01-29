@@ -13,4 +13,26 @@ MonoBehaviour:
   m_Name: Otaku Convers
   m_EditorClassIdentifier: 
   characterId: 1
-  conversations: []
+  conversations:
+  - {fileID: 11400000, guid: a130ef8feebce2b4595c34979091d495, type: 2}
+  - {fileID: 11400000, guid: 47d484e711b44b04fb94f65b222222dc, type: 2}
+  - {fileID: 11400000, guid: 296f9481cc6178a469af3bcdc21d16a5, type: 2}
+  - {fileID: 11400000, guid: e281d93ed045b154fb2d493a42110f5d, type: 2}
+  - {fileID: 11400000, guid: 47fc512c868703d4c925661caa2e2942, type: 2}
+  - {fileID: 11400000, guid: 889669b8266597f488a58698b350cc7d, type: 2}
+  - {fileID: 11400000, guid: 7083b7130b4070244816181b0ac204b3, type: 2}
+  - {fileID: 11400000, guid: f8a148624cfd6ce4aa18aa49561094d8, type: 2}
+  - {fileID: 11400000, guid: 860ac14b8c32a5e4c9c4462acee77ef8, type: 2}
+  - {fileID: 11400000, guid: 30a3f4ebc25c41b49be1a8475f4a48e6, type: 2}
+  - {fileID: 11400000, guid: 2dc84897365ccaa44ae1ac6c6f50742f, type: 2}
+  - {fileID: 11400000, guid: 97563d5d80d478b4b9c552f76da4302a, type: 2}
+  - {fileID: 11400000, guid: 9db79f090cc02b0478931691671210d5, type: 2}
+  - {fileID: 11400000, guid: ca80d79ab27c7b041ac7a31ab7f3c4c3, type: 2}
+  - {fileID: 11400000, guid: b53651f2a934c0f498f5d51b5a919daa, type: 2}
+  - {fileID: 11400000, guid: 01262ecfb8195744f84653eb75f5a57d, type: 2}
+  - {fileID: 11400000, guid: c1b6ed5143154274d9b86068a6446846, type: 2}
+  - {fileID: 11400000, guid: a2d924818c4bc6241b3d9cbf81c04fcd, type: 2}
+  - {fileID: 11400000, guid: 24b3705fad3cfda4aaf2b672562e8548, type: 2}
+  - {fileID: 11400000, guid: 75a6b48ab54e1084d8e60c9dfca3edc0, type: 2}
+  - {fileID: 11400000, guid: 24862d29275f86e458426e577ed12fa2, type: 2}
+  - {fileID: 11400000, guid: a014f0e04d2d1714fbbd165a58f5cd9c, type: 2}

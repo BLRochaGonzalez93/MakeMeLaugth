@@ -16,7 +16,9 @@ MonoBehaviour:
   questionInteraction: []
   idSpeaker: 
   response:
-  - 
-  - 
-  - 
-  nextId: 010000000200000094010000
+  - Konnichiwa
+  - Hola :)
+  - Ir de puto amo
+  nextId: 010000000200000003000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}

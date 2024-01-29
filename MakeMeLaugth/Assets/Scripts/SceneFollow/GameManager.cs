@@ -9,14 +9,15 @@ public class GameManager : MonoBehaviour
     public float timeToLose;
     public float timeToSpeed;
 
-    public GameObject pija, otaku;
+    public List<GameObject> girls;
 
     public TextMeshProUGUI TMPTimer;
 
-    void Start()
+    public int girl;
+
+    private void Start()
     {
-
-
+        SelecWoman();
     }
 
     private void Update()
@@ -27,8 +28,6 @@ public class GameManager : MonoBehaviour
     private void FixedUpdate()
     {
         TimeGone();
-       
-
     }
 
     //Time Magnagement
@@ -46,16 +45,18 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("YouDied");
     }
 
-    public void SelecWoman() { 
-    if(PlayerPrefs.GetInt("IDwoman") == 1)
+    public void SelecWoman() {
+        girl = PlayerPrefs.GetInt("IDwoman");
+        for (int i = 0; i < girls.Count; i++)
         {
-            pija.SetActive(false);
-            otaku.SetActive(true);
-        }
-        if (PlayerPrefs.GetInt("IDwoman") == 2)
-        {   
-            otaku.SetActive(false);
-            pija.SetActive(true);
+            if (i == girl)
+            {
+                girls[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                girls[i].gameObject.SetActive(false);
+            }
         }
     }
 

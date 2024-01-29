@@ -10,24 +10,37 @@ public class WomanAliveOrNot : MonoBehaviour
     public GameObject panelColorPija;
     public GameObject panelColorOtaku;
 
-
+    public int wPija, wOtaku;
 
     private void Start()
     {
+        wPija = PlayerPrefs.GetInt("woman2alive");
+        wOtaku = PlayerPrefs.GetInt("woman1alive");
         WomanAliveCharge();
     }
     public void WomanAliveCharge()
     {
-        if (PlayerPrefs.GetInt("woman1alive") == 0)
-        {
-            buttonOtaku.SetActive(false);   
-            panelColorOtaku.SetActive(true);
-        }
-        if (PlayerPrefs.GetInt("woman2alive") == 0)
+        if (wPija == 0)
         {
             buttonPija.SetActive(false);
-            panelColorPija.SetActive(true) ;
-            
+            panelColorPija.SetActive(true);
+        }
+        else
+        {
+            buttonPija.SetActive(true);
+            panelColorPija.SetActive(false);
+        }
+
+
+        if (wOtaku == 0)
+        {
+            buttonOtaku.SetActive(false);
+            panelColorOtaku.SetActive(true) ;
+        }
+        else
+        {
+            buttonOtaku.SetActive(true);
+            panelColorOtaku.SetActive(false);
         }
     }
 

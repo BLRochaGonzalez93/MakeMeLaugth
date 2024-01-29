@@ -12,9 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf27bb9e6d01b84189b2491d9c753c3, type: 3}
   m_Name: 1 14
   m_EditorClassIdentifier: 
-  id: 12
-  questionInteraction: []
-  idSpeaker: 
+  id: 14
+  questionInteraction:
+  - mi personaje fav es buzz
+  - 'y eso? '
+  - porque eres dulce como la miel, honey
+  - aawww
+  - pero no solo eso
+  - tmb es xq...
+  - "contigo ir\xEDa m\xE1s all\xE1 del infinito"
+  - bueno, no hace falta ir tan lejos
+  - "basta con quedar en el parque del r\xEDo :) (nya!)"
+  idSpeaker: 000000000100000000000000010000000000000000000000000000000100000001000000
   response:
-  - 
-  nextId: 94010000
+  - "Hasta el parquecito y ya ver\xE1s..."
+  nextId: 64000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}

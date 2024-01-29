@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 1 2
   m_EditorClassIdentifier: 
   id: 2
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - Hola :)
+  - Hola :)
+  idSpeaker: 0000000001000000
   response:
-  - 
-  nextId: 03000000
+  - Hablar de anime
+  nextId: 04000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}

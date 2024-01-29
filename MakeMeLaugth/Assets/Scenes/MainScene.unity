@@ -2553,25 +2553,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c5607dbbb84104f92b0ce5baa6a561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  girl: {fileID: 11400000, guid: 915a792b718a1114ea08831a5a296782, type: 2}
+  girls:
+  - {fileID: 11400000, guid: 915a792b718a1114ea08831a5a296782, type: 2}
+  - {fileID: 11400000, guid: 4b57e00ab8f23454f9986ad63b62ad3e, type: 2}
   questions: []
   questionsIDs: 
   facialExpresionAsResponse: []
+  responses: []
   chatBlob:
   - {fileID: 1773948937}
   - {fileID: 860206791}
   - {fileID: 94515196}
   - {fileID: 510935181}
   - {fileID: 374513192}
-  responses:
-  - {fileID: 1551550253}
-  - {fileID: 1457460565}
-  - {fileID: 1813868804}
-  - {fileID: 1788655602}
+  chatRespButt:
+  - {fileID: 496869591}
+  - {fileID: 1541945400}
+  - {fileID: 1500715709}
+  - {fileID: 903290275}
   blobHer: {fileID: 21300000, guid: 704a3f35fa21edb4cad54450ee761c32, type: 3}
   blobHim: {fileID: 21300000, guid: c61e49a3e407b634e9eee52fc5812b58, type: 3}
   girlImage: {fileID: 11075438}
   guyImage: {fileID: 599539184}
+  conversation: 0
 --- !u!4 &967833913
 Transform:
   m_ObjectHideFlags: 0
@@ -3017,7 +3021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

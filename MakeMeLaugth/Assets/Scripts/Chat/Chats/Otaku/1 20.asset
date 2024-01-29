@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf27bb9e6d01b84189b2491d9c753c3, type: 3}
   m_Name: 1 20
   m_EditorClassIdentifier: 
-  id: 12
-  questionInteraction: []
-  idSpeaker: 
+  id: 20
+  questionInteraction:
+  - mi clavo si q es duro de pelar
+  - ewww
+  - melapelamelapelamelapelamelapelamelapelamelapelamelapelamelapela
+  idSpeaker: 000000000100000000000000
   response:
-  - 
-  nextId: 64000000
+  - ...
+  nextId: 94010000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 68a2714b72f8a504b8db41d9b441fe07, type: 3}
+  - {fileID: 21300000, guid: 68a2714b72f8a504b8db41d9b441fe07, type: 3}

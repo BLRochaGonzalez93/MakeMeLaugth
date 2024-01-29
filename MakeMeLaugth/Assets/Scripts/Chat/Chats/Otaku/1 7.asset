@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: 1 7
   m_EditorClassIdentifier: 
   id: 7
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - de locos
+  - traete una navaja si quieres
+  - "mi ba\xF1era es grande"
+  - ...
+  idSpeaker: 00000000000000000000000001000000
   response:
-  - 
-  - 
-  nextId: 0800000009000000
+  - Emmmm...
+  nextId: 09000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 68a2714b72f8a504b8db41d9b441fe07, type: 3}
+  - {fileID: 21300000, guid: 68a2714b72f8a504b8db41d9b441fe07, type: 3}
+  - {fileID: 21300000, guid: 68a2714b72f8a504b8db41d9b441fe07, type: 3}

@@ -12,9 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf27bb9e6d01b84189b2491d9c753c3, type: 3}
   m_Name: 1 17
   m_EditorClassIdentifier: 
-  id: 12
-  questionInteraction: []
-  idSpeaker: 
+  id: 17
+  questionInteraction:
+  - te tienes que ver la peli de jujustsu
+  - okey :)
+  - "puedes verla antes o despu\xE9s de la serie"
+  - 'spolier: hay una escena de gojo quitandose la venda'
+  - primer plano de los ojos
+  - mmm esos ojitos uwu (nya!)
+  - ya vesss
+  - mi puto padre
+  - "a m\xED me gusta nobara"
+  - la de los clavos
+  idSpeaker: 00000000010000000000000000000000000000000100000000000000000000000100000001000000
   response:
-  - 
-  nextId: 94010000
+  - Ir full simp
+  - "No est\xE1 mal, pero Gojo se la folla"
+  nextId: 1200000013000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}

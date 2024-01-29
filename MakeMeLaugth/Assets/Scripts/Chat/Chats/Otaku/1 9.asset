@@ -13,8 +13,29 @@ MonoBehaviour:
   m_Name: 1 9
   m_EditorClassIdentifier: 
   id: 9
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - bueno venga, yo salgo si tu juegas al LoL
+  - lo conoces?
+  - 'si '
+  - mmm ns
+  - no es mi estilo
+  - "me gustan m\xE1s los juegos de historia "
+  - "a mi los singleplayer no me parecen mal, pero me gustan m\xE1s los multijugador"
+  - para jugar con amigos y tal
+  - hacemos equipo y vamos volando
+  - 'volando? rodando cuesta abajo mas bien no? jaja '
+  idSpeaker: 00000000000000000100000001000000010000000100000000000000000000000000000001000000
   response:
-  - 
-  nextId: 94010000
+  - Desenrrollar...
+  nextId: 0a000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 68a2714b72f8a504b8db41d9b441fe07, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}

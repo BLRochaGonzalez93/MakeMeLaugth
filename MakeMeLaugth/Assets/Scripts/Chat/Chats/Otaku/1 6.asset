@@ -13,9 +13,37 @@ MonoBehaviour:
   m_Name: 1 6
   m_EditorClassIdentifier: 
   id: 6
-  questionInteraction: []
-  idSpeaker: 
+  questionInteraction:
+  - yo soy mas de jugar al LoL
+  - "en mi habitaci\xF3n, con la puerta cerrada, y a oscuras si puede ser"
+  - q noo
+  - el aire fresco esta bien
+  - ir al parque, dar un paseo
+  - "deber\xEDas probarlo"
+  - creo que no lo estas entendiendo
+  - para salir de casa, la unica salida es la ventana
+  - alaaa
+  - aunque ahora que lo dices, no parece tan mala idea
+  - te cuento cuando llegue abajo
+  - NOOOOO jjajajajjajaj
+  - bueno espera voy contigo
+  idSpeaker: 00000000000000000100000001000000010000000100000000000000000000000100000000000000000000000100000001000000
   response:
-  - 
-  - 
-  nextId: 070000000a000000
+  - Seguir bromeando sobre suicidarse
+  - Intentar quedar con ella
+  - "Preguntar si juega tambi\xE9n"
+  nextId: 070000000800000009000000
+  facialExpresions:
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 68a2714b72f8a504b8db41d9b441fe07, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
+  - {fileID: 21300000, guid: 2531b18f398198a49a0daec49c4a3949, type: 3}
+  - {fileID: 21300000, guid: be0c26fd72d63b84aa66233912cf6e4e, type: 3}
